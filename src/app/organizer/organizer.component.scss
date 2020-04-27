@@ -1,0 +1,45 @@
+header {
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    margin-bottom: .5rem;
+    font-size: 18px;
+
+    &:hover,
+    &:focus {
+        background-color: #fff;
+        box-shadow: 0 0 10px #696969;
+    }
+
+    button {
+        background-color: #fa6072;
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    button {       
+        font-size: 24px;
+        background-color: #afeeee;
+    }
+}
