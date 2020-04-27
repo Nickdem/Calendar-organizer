@@ -25,6 +25,12 @@ ul {
         background-color: #fa6072;
         color: #fff;
         font-size: 18px;
+
+        &:hover,
+        &:focus {
+            background-color: #dc143c;
+            cursor: pointer;
+        }
     }
 }
 
@@ -41,5 +47,12 @@ form {
     button {       
         font-size: 24px;
         background-color: #afeeee;
+
+        &:hover,
+        &:focus {
+            background-color: #4682b4;
+            color: #fff;
+            cursor: pointer;
+        }
     }
 }
